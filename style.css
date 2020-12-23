@@ -1,0 +1,101 @@
+#myimage {
+    border-radius: 50%;
+    width: 425px;
+}
+
+body {
+    margin: 0;
+    padding-top: 850px;
+    text-align: center;
+}
+
+.links {
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: serif;
+    font-size: 20px;
+}
+
+.links:hover {
+    background-color: dodgerblue;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.menu {
+    list-style: none;
+    font-family: cursive;
+    position: fixed;
+    background: white;
+    top: 0px;
+    margin-top: 0px;
+    z-index: 10;
+    cursor: pointer;
+    width: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: crimson;
+    text-shadow: 2px 2px green;
+}
+
+#welcome {
+    position: absolute;
+    height: 800px;
+    color: #FFFFFF;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.83;
+    background: linear-gradient(#a87b32 0%, #fc0000 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+
+.parallax-inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.line {
+    height: 10px;
+    width: 25px;
+    color: black;
+}
+
+#two {
+    padding-top: 20px;
+}
+
+#authorone {
+    transition: transform .2s;
+    border: 10px solid #aaaaaa;
+    height: 380px;
+    width: 380px;    
+}
+
+#authorone:hover {
+    transform: scale(0.9);
+}
+
+#authortwo {
+    transition: transform .2s;
+    border: 10px solid #aaaaaa;
+    height: 380px;
+    width: 380px; 
+}
+
+#authortwo:hover {
+    transform: scale(0.9);
+}
